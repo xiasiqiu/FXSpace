@@ -7,5 +7,9 @@ package com.fx.fxspace.presenter;
  * 作者：fx on 2016/12/7 20:22
  */
 
-public class WelcomePresenter {
+public class WelcomePresenter implements WelcomeContract.Presenter{
+    @Override
+    public void getWelcome(String deviceId) {
+
+    }
 }

@@ -2,13 +2,11 @@ package com.fx.fxspace;
 
 import android.app.Application;
 import android.content.Context;
-
-import com.fx.fxspace.di.Component.DaggerNetComponent;
-import com.fx.fxspace.di.Component.NetComponent;
+import com.fx.fxspace.di.component.DaggerNetComponent;
+import com.fx.fxspace.di.component.NetComponent;
 import com.fx.fxspace.di.modules.NetModule;
 import com.orhanobut.logger.LogLevel;
 import com.orhanobut.logger.Logger;
-
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 
 /**

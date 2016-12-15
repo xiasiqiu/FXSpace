@@ -1,4 +1,4 @@
-package com.fx.fxspace.di.Component;
+package com.fx.fxspace.di.component;
 
 import com.fx.fxspace.di.modules.NetModule;
 import com.fx.fxspace.model.api.ApiService;
